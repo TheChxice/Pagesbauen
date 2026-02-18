@@ -534,7 +534,7 @@
     {
       "projectId": "aUb8rdGMMaGKHrX4GVbzK3",
       "projectApiToken": "B1h9iCVH0N0yNFEOVtiJMl8ZiAbzIP0w0VWtVqnSOH8Ebbvvh6AeIDL0gVRGm6TsKx8sjunQqOCu9yw",
-      "projectName": "Applicant tracking system",
+      "projectName": "Quizapp",
       "version": "latest",
       "cssFilePath": "plasmic/applicant_tracking_system/plasmic.module.css",
       "components": [
