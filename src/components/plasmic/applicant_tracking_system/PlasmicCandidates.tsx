@@ -271,7 +271,7 @@ function PlasmicCandidates__RenderFunc(props: {
                       sty.h1
                     )}
                   >
-                    {"Candidates"}
+                    {"Gespielte Runden"}
                   </h1>
                   {(() => {
                     const child$Props = {
