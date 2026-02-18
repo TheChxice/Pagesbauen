@@ -96,9 +96,14 @@ function wrapQueriesWithLoadingProxy($q: any): any {
 
 export function generateDynamicMetadata($q: any, $ctx: any) {
   return {
-    openGraph: {},
+    title: "anlage",
+
+    openGraph: {
+      title: "anlage"
+    },
     twitter: {
-      card: "summary"
+      card: "summary",
+      title: "anlage"
     }
   };
 }
@@ -411,7 +416,7 @@ function PlasmicCandidate__RenderFunc(props: {
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField___76BMs
+                            sty.formField__aGci
                           )}
                           label={"Name"}
                           name={"name"}
@@ -424,14 +429,14 @@ function PlasmicCandidate__RenderFunc(props: {
                           <AntdInput
                             className={classNames(
                               "__wab_instance",
-                              sty.input___5G9J
+                              sty.input___7Wcqh
                             )}
                           />
                         </FormItemWrapper>
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField__rsOrk
+                            sty.formField___0Qrqw
                           )}
                           label={"Passwort"}
                           name={"passwort"}
@@ -440,14 +445,14 @@ function PlasmicCandidate__RenderFunc(props: {
                           <AntdInput
                             className={classNames(
                               "__wab_instance",
-                              sty.input__a23Jy
+                              sty.input__aybKb
                             )}
                           />
                         </FormItemWrapper>
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField__hfMKk
+                            sty.formField___9G3Xk
                           )}
                           label={"Kurs"}
                           name={"kurs"}
@@ -456,7 +461,7 @@ function PlasmicCandidate__RenderFunc(props: {
                           <AntdInput
                             className={classNames(
                               "__wab_instance",
-                              sty.input__zuWc4
+                              sty.input__oNmv1
                             )}
                           />
                         </FormItemWrapper>
@@ -627,7 +632,7 @@ export const PlasmicCandidate = Object.assign(
     internalArgProps: PlasmicCandidate__ArgProps,
 
     pageMetadata: generateDynamicMetadata(wrapQueriesWithLoadingProxy({}), {
-      pagePath: "/candidate/[id]",
+      pagePath: "/useranlagene",
       searchParams: {},
       params: {}
     })

@@ -388,7 +388,7 @@ function PlasmicNewCandidate__RenderFunc(props: {
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField__iGxwN
+                            sty.formField__rfQkq
                           )}
                           label={"Name"}
                           name={"name"}
@@ -401,14 +401,14 @@ function PlasmicNewCandidate__RenderFunc(props: {
                           <AntdInput
                             className={classNames(
                               "__wab_instance",
-                              sty.input__vUGzz
+                              sty.input__iZtc3
                             )}
                           />
                         </FormItemWrapper>
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField__xXn6
+                            sty.formField___3ONfb
                           )}
                           label={"Email"}
                           name={"email"}
@@ -417,14 +417,14 @@ function PlasmicNewCandidate__RenderFunc(props: {
                           <AntdInput
                             className={classNames(
                               "__wab_instance",
-                              sty.input___41VuT
+                              sty.input__bePdJ
                             )}
                           />
                         </FormItemWrapper>
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField__tZh2Z
+                            sty.formField__lVwD
                           )}
                           label={"Phone"}
                           name={"phone"}
@@ -432,14 +432,14 @@ function PlasmicNewCandidate__RenderFunc(props: {
                           <AntdInput
                             className={classNames(
                               "__wab_instance",
-                              sty.input__igMvq
+                              sty.input__b5TZc
                             )}
                           />
                         </FormItemWrapper>
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField__gntea
+                            sty.formField__f2L1H
                           )}
                           label={"Resume URL"}
                           name={"resume_url"}
@@ -447,14 +447,14 @@ function PlasmicNewCandidate__RenderFunc(props: {
                           <AntdInput
                             className={classNames(
                               "__wab_instance",
-                              sty.input__xDzkN
+                              sty.input__g1Mxk
                             )}
                           />
                         </FormItemWrapper>
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField__lPoIz
+                            sty.formField__edCdf
                           )}
                           label={"Applied for"}
                           name={"position_id"}
@@ -491,7 +491,7 @@ function PlasmicNewCandidate__RenderFunc(props: {
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField__joKvT
+                            sty.formField__wU4XR
                           )}
                           label={"Notes"}
                           name={"notes"}

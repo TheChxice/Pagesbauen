@@ -92,9 +92,14 @@ function wrapQueriesWithLoadingProxy($q: any): any {
 
 export function generateDynamicMetadata($q: any, $ctx: any) {
   return {
-    openGraph: {},
+    title: "list",
+
+    openGraph: {
+      title: "list"
+    },
     twitter: {
-      card: "summary"
+      card: "summary",
+      title: "list"
     }
   };
 }
@@ -326,20 +331,7 @@ function PlasmicCandidates__RenderFunc(props: {
                         $steps["goToCandidate"] = true
                           ? (() => {
                               const actionArgs = {
-                                destination: `/candidate/${(() => {
-                                  try {
-                                    return row.id;
-                                  } catch (e) {
-                                    if (
-                                      e instanceof TypeError ||
-                                      e?.plasmicType ===
-                                        "PlasmicUndefinedDataError"
-                                    ) {
-                                      return undefined;
-                                    }
-                                    throw e;
-                                  }
-                                })()}`
+                                destination: `/useranlagene`
                               };
                               return (({ destination }) => {
                                 if (
