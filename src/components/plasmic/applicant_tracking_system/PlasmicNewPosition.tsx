@@ -385,7 +385,7 @@ function PlasmicNewPosition__RenderFunc(props: {
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField__sIxHf
+                            sty.formField__ykAUf
                           )}
                           label={"Title"}
                           name={"title"}
@@ -393,14 +393,14 @@ function PlasmicNewPosition__RenderFunc(props: {
                           <AntdInput
                             className={classNames(
                               "__wab_instance",
-                              sty.input__zncWn
+                              sty.input__hxsF0
                             )}
                           />
                         </FormItemWrapper>
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField___8Ez1U
+                            sty.formField__fhmE6
                           )}
                           label={"Description"}
                           name={"description"}
@@ -408,14 +408,14 @@ function PlasmicNewPosition__RenderFunc(props: {
                           <AntdInput
                             className={classNames(
                               "__wab_instance",
-                              sty.input__bLeUt
+                              sty.input__im0Q
                             )}
                           />
                         </FormItemWrapper>
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField__kNt8F
+                            sty.formField__xrmUa
                           )}
                           label={"Department"}
                           name={"department_id"}

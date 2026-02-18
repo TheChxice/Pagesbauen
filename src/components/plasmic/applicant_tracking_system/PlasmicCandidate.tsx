@@ -411,7 +411,7 @@ function PlasmicCandidate__RenderFunc(props: {
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField__om7Td
+                            sty.formField___1Xgdv
                           )}
                           label={"Name"}
                           name={"name"}
@@ -424,14 +424,14 @@ function PlasmicCandidate__RenderFunc(props: {
                           <AntdInput
                             className={classNames(
                               "__wab_instance",
-                              sty.input__xWknb
+                              sty.input__satat
                             )}
                           />
                         </FormItemWrapper>
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField__vu7T
+                            sty.formField__fFrcx
                           )}
                           label={"Passwort"}
                           name={"passwort"}
@@ -440,14 +440,14 @@ function PlasmicCandidate__RenderFunc(props: {
                           <AntdInput
                             className={classNames(
                               "__wab_instance",
-                              sty.input__mVoG
+                              sty.input__yfRsf
                             )}
                           />
                         </FormItemWrapper>
                         <FormItemWrapper
                           className={classNames(
                             "__wab_instance",
-                            sty.formField___4TnRl
+                            sty.formField___9Ag6M
                           )}
                           label={"Kurs"}
                           name={"kurs"}
@@ -456,7 +456,7 @@ function PlasmicCandidate__RenderFunc(props: {
                           <AntdInput
                             className={classNames(
                               "__wab_instance",
-                              sty.input__xBDo
+                              sty.input__sOa9U
                             )}
                           />
                         </FormItemWrapper>
